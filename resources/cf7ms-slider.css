@@ -1,0 +1,73 @@
+/* Styles for multi step slide form */
+
+#cf7ms-slider {
+    -moz-box-shadow: 0px 0px 3px #aaa;
+    -webkit-box-shadow: 0px 0px 3px #aaa;
+    box-shadow: 0px 0px 3px #aaa;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    width: 100%;
+}
+
+#cf7ms-slider .cf7ms-slides-container {
+  position: relative; 
+  margin: 0;  
+  text-align: left;
+  font-size: 0;
+}
+ 
+#cf7ms-slider .wpcf7{
+    display: inline-block;   
+    padding: 0; 
+    padding-bottom: 60px;
+    font-size: 15px;
+    /*line-height: normal;*/
+    vertical-align: top;
+}
+
+#cf7ms-slider .wpcf7-back {
+   width: auto;
+   float: none;
+   margin-top: 0;
+}
+
+#cf7ms-slider .wpcf7-response-output.wpcf7-display-none,
+#cf7ms-slider .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+display: none !important;
+visibility: hidden;
+height: 0;
+}
+
+#cf7ms-slider form legend {
+    text-align: left;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #d9d9d9;
+}
+
+#cf7ms-slider form  p {   
+    margin: 15px 10px;    
+    padding: 10px;
+}
+
+#cf7ms-slider form .stepsNav {
+   position: absolute;
+   bottom: 10px;
+   margin-left: 10px;
+   width: 100%;   
+}
+
+#cf7ms-slider .cf7ms-slides-container {
+    visibility: hidden;
+}
